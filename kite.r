@@ -2,7 +2,6 @@ library(readxl)
 library(igraph)
 
 # Inspect the first few rows of the dataframe 'friends'
-setwd("/Volumes/GoogleDrive/My Drive/INCAE Work Drive/Investigador/Teaching Assistant/Redes Sociales/Kite")
 Kite <- read_excel("Kite_Example.xlsx", range = "A2:b20")
 head(Kite)
 
